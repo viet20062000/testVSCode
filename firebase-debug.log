@@ -1,0 +1,37 @@
+[debug] [2019-12-10T01:27:34.268Z] ----------------------------------------------------------------------
+[debug] [2019-12-10T01:27:34.270Z] Command:       C:\Users\User\scoop\apps\nodejs\current\node.exe C:\Users\User\scoop\apps\nodejs\current\bin\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2019-12-10T01:27:34.271Z] CLI Version:   7.9.0
+[debug] [2019-12-10T01:27:34.271Z] Platform:      win32
+[debug] [2019-12-10T01:27:34.271Z] Node Version:  v13.3.0
+[debug] [2019-12-10T01:27:34.271Z] Time:          Tue Dec 10 2019 08:27:34 GMT+0700 (Indochina Time)
+[debug] [2019-12-10T01:27:34.272Z] ----------------------------------------------------------------------
+[debug] [2019-12-10T01:27:34.272Z] 
+[debug] [2019-12-10T01:27:34.277Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-12-10T01:27:34.278Z] > authorizing via signed-in user
+[debug] [2019-12-10T01:27:34.278Z] [iam] checking project vietlqgch18109 for permissions ["firebase.projects.get"]
+[debug] [2019-12-10T01:27:34.279Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/vietlqgch18109:testIamPermissions  
+
+[debug] [2019-12-10T01:27:35.585Z] <<< HTTP RESPONSE 200
+[debug] [2019-12-10T01:27:35.586Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/vietlqgch18109  
+ 
+[debug] [2019-12-10T01:27:37.382Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\User\projectfirebase'...
+[info] 
+[debug] [2019-12-10T01:27:37.385Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/vietlqgch18109/webApps/-/config  
+ 
+[warn] !  Your requested "node" version "8" doesn't match your global version "13"
+[debug] [2019-12-10T01:27:39.461Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+[info] +  functions: Emulator started at http://localhost:5001
+[info] i  functions: Watching "C:\Users\User\projectfirebase\functions" for Cloud Functions...
+[debug] [2019-12-10T01:27:39.915Z] [worker-~diagnostic~-99bd1128-a875-447f-8e37-1e4f39b9d0a9]: Assigning socketPath: \\?\pipe\C:\Users\User\projectfirebase\functions\11312
+[debug] [2019-12-10T01:27:39.915Z] [worker-~diagnostic~-99bd1128-a875-447f-8e37-1e4f39b9d0a9]: BUSY
+[debug] [2019-12-10T01:27:40.194Z] [runtime-status] [11312] Functions runtime initialized. {"cwd":"C:\\Users\\User\\projectfirebase\\functions","node_version":"13.3.0"}
+[debug] [2019-12-10T01:27:40.194Z] [runtime-status] [11312] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2019-12-10T01:27:40.196Z] [runtime-status] [11312] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.8.0","resolution":"C:\\Users\\User\\projectfirebase\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2019-12-10T01:27:40.197Z] [runtime-status] [11312] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\User\\projectfirebase\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-12-10T01:27:40.198Z] [runtime-status] [11312] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\User\\projectfirebase\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-12-10T01:27:40.254Z] [worker-~diagnostic~-99bd1128-a875-447f-8e37-1e4f39b9d0a9]: exited
+[debug] [2019-12-10T01:27:40.254Z] [worker-~diagnostic~-99bd1128-a875-447f-8e37-1e4f39b9d0a9]: FINISHED
