@@ -35,7 +35,7 @@
 		$(document).ready(() => {
 			checkLoggedIn();
 		})
-		function checkLoggedIn() { 
+		function checkLoggedIn() {  
 			firebase.auth().onAuthStateChanged(function (user) {
 				if (user) {
 					var user = firebase.auth().currentUser;
