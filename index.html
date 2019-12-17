@@ -19,18 +19,18 @@
     <script  src="/__/firebase/init.js"></script>
   </head>
   <body>
-    <ul id="listPersons"></ul>
-    <br><br><br>
-    Name
-    <input type="text" name="" id="name">
+    <p id="status"></p>
+    Enter a new Fact
+    <input type="text" name="" id="fact">
+    <input type="button" value="Insert" onclick="addFact()">
     <br>
-    Job Title 
-    <input type="text" name="" id="job">
-    <br>
-    Age 
-    <input type="text" name="" id="age">
-    <br>
-    <input type="button" value ="Insert" onclick="insertPerson()">
+    Name <input type="text" id="name">
+    Age <input type="text" id="age">
+    <input type="button" value="new Person" onclick="addPerson()">
+    <h1>All Persons</h1>
+    <ul id="listPersons">
+  
+    </ul>
     <script>
       $(document).ready(() => {
         checkLoggedIn();
