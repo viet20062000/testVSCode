@@ -34,7 +34,7 @@
     <script>
       //chi den goc database 
         const dbRef = firebase.database().ref();
-        dbRef.child('persons').on('value',snap=>
+        dbRef.child('persons').on('value',snap=> 
         {
           fillData(snap);
         });
